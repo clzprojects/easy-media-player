@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" layoutX="6.0" layoutY="8.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane prefHeight="319.0" prefWidth="465.0">
+               <children>
+                  <Text fill="#21adc3" layoutX="87.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Easy Media Player">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="107.0" fitWidth="80.0" layoutX="14.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/easy_media_player_logo.png" />
+                     </image>
+                  </ImageView>
+                  <TextArea editable="false" layoutY="146.0" prefHeight="154.0" prefWidth="465.0" text="Product Version :&#10;-------------------&#10;Easy Media Player 1.0&#10;&#10;Build Information:&#10;--------------------&#10;Version: 1.0-b10&#10;Date: 2014-11-19 06:55&#10;&#10;Developer:&#10;------------&#10;Bhuwan Prasad Upadhyay&#10;Dhangadhi, Nepal&#10;comp.er.bhuwan@gmail.com&#10;&#10;Copyright © 2014, Developer Bhuwan. All rights reserved.&#10;&#10;This software is open source software. We can download source code&#10;from website http://www.bhuwanupadhyay.com.np/easymediaplayer/&#10;" wrapText="true" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</AnchorPane>

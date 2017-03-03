@@ -1,0 +1,58 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+.stopButton {
+    -fx-background-image: url(../images/white_blue_stop.png);
+}
+
+.stopButton:hover {
+    -fx-background-image: url(../images/blue_stop.png);
+}
+
+
+.listButton {
+    -fx-background-image: url(../images/white_blue_list.png);
+}
+
+.listButton:hover {
+    -fx-background-image: url(../images/blue_list.png);
+}
+
+
+.prevButton {
+    -fx-background-image: url(../images/white_blue_prev.png);
+}
+
+.prevButton:hover {
+    -fx-background-image: url(../images/blue_prev.png);
+}
+
+.nextButton {
+    -fx-background-image: url(../images/white_blue_next.png);
+}
+
+.nextButton:hover {
+    -fx-background-image: url(../images/blue_next.png);
+}
+
+.playButton {
+    -fx-background-image: url(../images/white_blue_play.png);
+}
+
+.playButton:hover {
+    -fx-background-image: url(../images/blue_play.png);
+}
+
+.pauseButton {
+    -fx-background-image: url(../images/white_blue_pause.png);
+}
+
+.pauseButton:hover {
+    -fx-background-image: url(../images/blue_pause.png);
+}
+
